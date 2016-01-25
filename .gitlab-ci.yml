@@ -1,0 +1,7 @@
+before_script:
+  - bundle install --path=vendor/
+  - bundle exec asciidoctor-pdf-cjk-kai_gen_gothic-install
+
+asciidoc:
+  script:
+    - bundle exec asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicCN example/example.asc
