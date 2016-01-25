@@ -1,3 +1,5 @@
+image: ruby:2.1
+
 before_script:
   - bundle install --path=vendor/
   - bundle exec asciidoctor-pdf-cjk-kai_gen_gothic-install
