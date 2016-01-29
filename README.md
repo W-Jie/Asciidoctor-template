@@ -1,8 +1,6 @@
 Asciidoctor模板，可以生成pdf文件，支持中文
 ==
 
-image:https://travis-ci.org/W-Jie/Asciidoctor-template.svg?branch=master["Build Status", link="https://travis-ci.org/W-Jie/Asciidoctor-template"]
-
 [![](https://travis-ci.org/W-Jie/Asciidoctor-template.svg?branch=master)](https://travis-ci.org/W-Jie/Asciidoctor-template)
 
 使用说明
